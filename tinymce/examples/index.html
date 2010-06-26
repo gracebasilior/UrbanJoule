@@ -1,0 +1,79 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Full featured example using jQuery plugin</title>
+
+<!-- Load TinyMCE -->
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+<script type="text/javascript" src="/tinymce/jscripts/tiny_mce/tiny_mce_gzip.js"></script>
+<script type="text/javascript">
+tinyMCE_GZ.init({
+	plugins : "preview,safari,paste,inlinepopups",
+	themes : 'advanced',
+	languages : 'en',
+	disk_cache : true,
+	debug : false
+});
+</script>
+
+<script type="text/javascript">
+tinyMCE.init({
+	mode : "specific_textareas",
+	editor_selector : /(tinymce)/,
+	theme : "advanced",			
+	plugins : "preview,safari,paste,inlinepopups",
+		paste_auto_cleanup_on_paste : false,
+		paste_create_paragraphs : true,
+		paste_create_linebreaks : true,
+		paste_use_dialog : false,
+	theme_advanced_buttons1 : "newdocument,preview,|,bold,italic,underline,|,justifyleft,justifycenter,justifyright,justifyfull,|,fontselect,fontsizeselect,|,cut,copy,paste",
+	theme_advanced_buttons2 : "bullist,numlist,|,outdent,indent,blockquote,|,undo,redo,|,link,unlink,cleanup,code,|,forecolor,backcolor,|,removeformat",
+	theme_advanced_buttons3 : false,
+	theme_advanced_buttons4 : false,
+	theme_advanced_toolbar_location : "top", 
+	theme_advanced_toolbar_align : "left",
+	theme_advanced_statusbar_location : "bottom",
+	theme_advanced_resizing : true,
+	convert_urls : false,
+	font_size_style_values : "8pt,10pt,12pt,14pt,18pt,24pt,36pt",
+	element_format : "html",
+	cleanup : true,
+	verify_html : false,
+	cleanup_on_startup : true,
+	paste_strip_class_attributes : "mso"/*,
+	extended_valid_elements : "html,body,style,title,head,meta"*/
+});
+</script>
+<!-- /TinyMCE -->
+
+</head>
+<body>
+
+<form method="post" action="http://tinymce.moxiecode.com/dump.php?example=true">
+	<div>
+		<h3>Full featured example using jQuery plugin</h3>
+
+		<p>
+			This example shows how TinyMCE can be lazy loaded using jQuery. The jQuery plugin will also attach it's self to various jQuery methods to make it more easy to get/set editor contents etc.
+		</p>
+
+		<!-- Gets replaced with TinyMCE, remember HTML in a textarea should be encoded -->
+		<div>
+			<textarea id="elm1" name="elm1" style="width:480px; height:100px;" class="tinymce">
+				&lt;p&gt;
+					This is some example text that you can edit inside the &lt;strong&gt;TinyMCE editor&lt;/strong&gt;.
+				&lt;/p&gt;
+				&lt;p&gt;
+				Nam nisi elit, cursus in rhoncus sit amet, pulvinar laoreet leo. Nam sed lectus quam, ut sagittis tellus. Quisque dignissim mauris a augue rutrum tempor. Donec vitae purus nec massa vestibulum ornare sit amet id tellus. Nunc quam mauris, fermentum nec lacinia eget, sollicitudin nec ante. Aliquam molestie volutpat dapibus. Nunc interdum viverra sodales. Morbi laoreet pulvinar gravida. Quisque ut turpis sagittis nunc accumsan vehicula. Duis elementum congue ultrices. Cras faucibus feugiat arcu quis lacinia. In hac habitasse platea dictumst. Pellentesque fermentum magna sit amet tellus varius ullamcorper. Vestibulum at urna augue, eget varius neque. Fusce facilisis venenatis dapibus. Integer non sem at arcu euismod tempor nec sed nisl. Morbi ultricies, mauris ut ultricies adipiscing, felis odio condimentum massa, et luctus est nunc nec eros.
+				&lt;/p&gt;
+			</textarea>
+		</div>
+
+		<br />
+		<input type="submit" name="save" value="Submit" />
+		<input type="reset" name="reset" value="Reset" />
+	</div>
+</form>
+
+</body>
+</html>

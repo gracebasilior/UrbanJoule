@@ -1,0 +1,101 @@
+ADOBE INDESIGN PRINTING INSTRUCTIONS FOR SERVICE PROVIDER REPORT
+
+PUBLICATION NAME: UJ_web_100522.indd
+
+PACKAGE DATE: 5/24/10 8:00 PM
+Creation Date: 5/23/10
+Modification Date: 5/23/10
+
+CONTACT INFORMATION
+
+Company Name: 
+Contact: 
+Address: 
+
+
+
+
+
+Phone: 
+Fax: 
+Email: 
+
+SPECIAL INSTRUCTIONS AND OTHER NOTES
+
+
+
+
+
+
+External Plug-ins 0
+Non Opaque Objects :On Page1, 2, 3, 4, 5, 6, Typ
+
+FONTS
+7 Fonts Used; 0 Missing, 0 Embedded, 0 Incomplete, 0 Protected
+
+Fonts Packaged
+- Name: Arial-BoldMT; Type: OpenType TrueType, Status: OK
+- Name: ArialMT; Type: OpenType TrueType, Status: OK
+- Name: SuomiSlabSerif-Bold; Type: OpenType Type 1, Status: OK
+- Name: SuomiSlabSerif-Book; Type: OpenType Type 1, Status: OK
+- Name: Times-Roman; Type: TrueType, Status: OK
+- Name: TimesNewRomanPS-BoldMT; Type: OpenType TrueType, Status: OK
+- Name: TimesNewRomanPSMT; Type: OpenType TrueType, Status: OK
+
+
+COLORS AND INKS
+4 Process Inks; 6 Spot Inks
+
+- Name and Type: Process Cyan; Angle: 0.000; Lines/Inch: 0.000
+- Name and Type: Process Magenta; Angle: 0.000; Lines/Inch: 0.000
+- Name and Type: Process Yellow; Angle: 0.000; Lines/Inch: 0.000
+- Name and Type: Process Black; Angle: 0.000; Lines/Inch: 0.000
+- Name and Type: PANTONE 167 C; Angle: 0.000; Lines/Inch: 0.000
+- Name and Type: PANTONE 1955 C; Angle: 0.000; Lines/Inch: 0.000
+- Name and Type: PANTONE 397 C; Angle: 0.000; Lines/Inch: 0.000
+- Name and Type: PANTONE 618 C; Angle: 0.000; Lines/Inch: 0.000
+- Name and Type: PANTONE 7533 C; Angle: 0.000; Lines/Inch: 0.000
+- Name and Type: PANTONE Warm Gray 4 C; Angle: 0.000; Lines/Inch: 0.000
+
+
+LINKS AND IMAGES
+(Missing & Embedded Links Only)
+Links and Images: 8 Links Found; 0 Modified, 0 Missing
+Images: 0 Embedded, 8 use RGB color space
+
+
+PRINT SETTINGS
+PPD: N/A, (Photosmart 2700 series)
+Printing To: Printer
+Number of Copies: 1
+Reader Spreads: No
+Even/Odd Pages: Both
+Pages: All
+Proof: No
+Tiling: None
+Scale: 100%, 100%
+Page Position: Upper Left
+Print Layers: Visible & Printable Layers
+Printer's Marks: None
+Bleed: 0 in, 0 in, 0 in, 0 in
+Color: Composite RGB
+Trapping Mode: None
+Send Image Data: Optimized Subsampling
+OPI/DCS Image Replacement: No
+Page Size: Custom: 1000 pt x 700 pt
+Paper Dimensions: 612 pt x 792 pt
+Orientation: Landscape
+Negative: No
+Flip Mode: Off
+
+
+FILE PACKAGE LIST
+
+1. UJ_web_100522.indd; type: Adobe InDesign publication; size: 3478K
+2. Arial Bold.ttf; type: Font file; size: 733K
+3. Arial.ttf; type: Font file; size: 755K
+4. SuomiSlabSerifBold.otf; type: Font file; size: 27K
+5. SuomiSlabSeriBook.otf; type: Font file; size: 27K
+6. Times.dfont; type: Font file; size: 1709K
+7. Times New Roman Bold.ttf; type: Font file; size: 822K
+8. Times New Roman.ttf; type: Font file; size: 814K
